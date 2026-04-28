@@ -11,7 +11,7 @@
 Verify that the user can switch the interface theme from "Auto" to "Light" and that the setting persists after a page refresh.
 
 ## Preconditions
-1. 1. The user is logged into the application.
+1. The user is logged into the application.
 2. The browser (Chrome) is set to "Dark" mode at the OS level.
 3. The application’s theme setting is currently set to "Auto".
 
