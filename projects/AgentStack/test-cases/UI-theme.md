@@ -1,180 +1,163 @@
-# Test Case ID: AS-UI_THEME-001
+# Test Case ID: AS-UI-THEME-001
 
 ## Metadata
-* **Title**: Check theme 
-* **Module**: UI THEME
+* **Title**: Verify Light Theme Persistence After Refresh
+* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
 
 ## Objective
-Verify that the user can switch the interface theme from "Auto" to "Light" and that the setting persists after a page refresh.
+Verify Light theme persists after page refresh when OS is in Dark mode.
 
 ## Preconditions
-1. The user is logged into the websit.
-2. The browser (Chrome) is set to "Dark" mode at the OS level.
-3. The website theme setting is currently set to "Auto".
+1. User logged into website
+2. Browser (Chrome) set to Dark mode (OS level)  
+3. Website theme set to "Auto"
 
 ## Test Data
-* None (Default system settings)
+* None
 
 ## Steps
-| # | Action | Expected Result |
-|---| :--- | :--- |
-| 1 | Navigate to the website homepage. | Homepage is open |
-| 2 | Click on the Profile Icon in the header | A new object with a dropwown listinside has opened |
-| 3 | Select 'Light' from the Theme dropdown menu | The theme change to light  |
-| 4 | Refresh the browser page (F5) | The theme should remain the same |
-| 5 | Click on the Profile Icon again to verify the current | The theme toggle should stay on 'Light'
-
-## Actual Result
-
-As expected
+| # | Action | Expected Result | Actual Result |
+|---|--------|-----------------|---------------|
+| 1 | Navigate to homepage | Homepage loads | - |
+| 2 | Click Profile Icon → Theme | Dropdown opens | - |
+| 3 | Select "Light" theme | UI switches to Light | - |
+| 4 | Refresh page (F5) | **Light theme persists** | - |
+| 5 | Verify theme toggle | Toggle shows "Light" | - |
 
 ## Status
-- [x] Pass 
-- [ ] Fail 
+- [x] **Pass**
+- [ ] Fail
 
-## Environment / Notes
-* **Environment**: Chrome 147.0.7727.102, Windows 10
-* **Notes**: None
+## Environment
+* Chrome 147.0.7727.102, Windows 10
 
 ---
 ---
 
-# Test Case ID: AS-UI_THEME-002
+# Test Case ID: AS-UI-THEME-002
 
 ## Metadata
-* **Title**: Check theme "Dark"
-* **Module**: UI THEME
+* **Title**: Verify Dark Theme Persistence After Refresh
+* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
 
 ## Objective
-Verify that the user can switch the interface theme from "Auto" to "Dark" and that the setting persists after a page refresh.
+Verify Dark theme persists after page refresh when OS is in Dark mode.
 
 ## Preconditions
-1. 1. The user is logged into the website.
-2. The browser (Chrome) is set to "Dark" mode at the OS level.
-3. The website theme setting is currently set to "Auto".
+1. User logged into website
+2. Browser (Chrome) set to Dark mode (OS level)
+3. Website theme set to "Auto"
 
 ## Test Data
-* None (Default system settings)
+* None
 
 ## Steps
-| # | Action | Expected Result |
-|---| :--- | :--- |
-| 1 | Navigate to the website homepage. | Homepage is open |
-| 2 | Click on the Profile Icon in the header | A new object with a dropwown listinside has opened |
-| 3 | Select "Dark" from the Theme dropdown menu | The theme change to Dark  |
-| 4 | Refresh the browser page (F5) | The theme should remain the same |
-| 5 | Click on the Profile Icon again to verify the current | The theme toggle should stay on "Dark"
-
-## Actual Result
-
-As expected
+| # | Action | Expected Result | Actual Result |
+|---|--------|-----------------|---------------|
+| 1 | Navigate to homepage | Homepage loads | - |
+| 2 | Click Profile Icon → Theme | Dropdown opens | - |
+| 3 | Select "Dark" theme | UI switches to Dark | - |
+| 4 | Refresh page (F5) | **Dark theme persists** | - |
+| 5 | Verify theme toggle | Toggle shows "Dark" | - |
 
 ## Status
-- [x] Pass
-- [ ] Fail (Link to Bug Report: [Issue #XXX])
+- [x] **Pass**
+- [ ] Fail
 
-## Environment / Notes
-* **Environment**: Chrome 147.0.7727.102, Windows 10
-* **Notes**: None
+## Environment
+* Chrome 147.0.7727.102, Windows 10
 
 ---
 ---
 
-# Test Case ID: AS-UI_THEME-003
+# Test Case ID: AS-UI-THEME-003
 
 ## Metadata
-* **Title**: Check theme presistence after login
-* **Module**: UI THEME
+* **Title**: Verify Dark Theme Persistence After Logout/Login
+* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
 
 ## Objective
-Verify that the darktheme setting remains consistent after logging out and back in
+Verify Dark theme persists after logout/login cycle.
 
 ## Preconditions
-1. The user is logged into the website.
-2. The browser (Chrome) is set to "Dark" mode at the OS level.
-3. The website theme setting is currently set to "Auto".
+1. Valid test account exists
+2. Browser set to Dark mode (OS level)
+3. Website theme initially "Auto"
 
 ## Test Data
-* None (Default system settings)
+* Email: `test@example.com`
+* Password: `TestPass123!`
 
 ## Steps
-| # | Action | Expected Result |
-|---| :--- | :--- |
-| 1 | Navigate to the website homepage. | Homepage is open |
-| 2 | Click on the Profile Icon in the header | A new object with a dropwown listinside has opened |
-| 3 | Select "Dark" from the Theme dropdown menu | The theme change to Dark  |
-| 4 | Refresh the browser page (F5) | The theme should remain the same |
-| 5 | Click on the loggout button | The user has logged out of the system. The login or registration window appears
-| 6 | In the email field, enter a valid email | The email is entered in the field
-| 7 | In the password field, enter the correct password | The password is entered in the field
-| 8 | Click on the loggin button | The user is logged into the website
-| 9 | Follow the instruction in step 2 | The theme remained dark and toggle is set to the dark theme
-
-## Actual Result
-
-In step 9 the theme remains selected as auto
+| # | Action | Expected Result | Actual Result |
+|---|--------|-----------------|---------------|
+| 1 | Login with test data | Homepage loads | - |
+| 2 | Click Profile → Theme | Dropdown opens | - |
+| 3 | Select "Dark" theme | UI switches to Dark | - |
+| 4 | Refresh page (F5) | Dark theme persists | - |
+| 5 | Click "Logout" | Login screen appears | - |
+| 6 | Enter email | Email field populated | - |
+| 7 | Enter password | Password field populated | - |
+| 8 | Click "Login" | User logged in | - |
+| 9 | Verify theme website | The website theme should be set to Dark | -
+| 9 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "Auto"** |
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: [Issue #XXX])
+- [x] **Fail** (Issue: [AS-UI-THEME-003])
 
-## Environment / Notes
-* **Environment**: Chrome 147.0.7727.102, Windows 10
-* **Notes**: None
-
+## Environment
+* Chrome 147.0.7727.102, Windows 10
 ---
 ---
 
-# Test Case ID: AS-UI_THEME-004
+# Test Case ID: AS-UI-THEME-004
 
 ## Metadata
-* **Title**: Check theme presistence after login
-* **Module**: UI THEME
+* **Title**: Verify Light Theme Persistence After Logout/Login
+* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
 
 ## Objective
-Verify that the light theme setting remains consistent after logging out and back in
+Verify Light theme persists after logout/login cycle.
 
 ## Preconditions
-1. The user is logged into the website.
-2. The browser (Chrome) is set to Light mode at the OS level.
-3. The website theme setting is currently set to "Auto".
+1. Valid test account exists
+2. Browser set to Light mode (OS level)
+3. Website theme initially "Auto"
 
 ## Test Data
-* None (Default system settings)
+* Email: `test@example.com`
+* Password: `TestPass123!`
 
 ## Steps
-| # | Action | Expected Result |
-|---| :--- | :--- |
-| 1 | Navigate to the website homepage. | Homepage is open |
-| 2 | Click on the Profile Icon in the header | A new object with a dropwown listinside has opened |
-| 3 | Select "Light" from the Theme dropdown menu | The theme change to Light  |
-| 4 | Refresh the browser page (F5) | The theme should remain the same |
-| 5 | Click on the loggout button | The user has logged out of the system. The login or registration window appears
-| 6 | In the email field, enter a valid email | The email is entered in the field
-| 7 | In the password field, enter the correct password | The password is entered in the field
-| 8 | Click on the loggin button | The user is logged into the website
-| 9 | Follow the instruction in step 2 | The theme remained light and toggle is set to the dark theme
-
-## Actual Result
-
-In step 9 the theme remains selected as auto
+| # | Action | Expected Result | Actual Result |
+|---|--------|-----------------|---------------|
+| 1 | Login with test data | Homepage loads | - |
+| 2 | Click Profile → Theme | Dropdown opens | - |
+| 3 | Select "Light" theme | UI switches to Light | - |
+| 4 | Refresh page (F5) | Light theme persists | - |
+| 5 | Click "Logout" | Login screen appears | - |
+| 6 | Enter email | Email field populated | - |
+| 7 | Enter password | Password field populated | - |
+| 8 | Click "Login" | User logged in | - |
+| 9 | Verify theme website | **The website theme should be set to Light** | **FAILED: The website reset on the dark theme**
+| 10 | Check theme toggle | **Toggle shows "Light"** | **FAILED: Toggle reset to "Auto"** |
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: [Issue #XXX])
+- [x] **Fail** (Issue: [AS-UI-THEME-004])
 
-## Environment / Notes
-* **Environment**: Chrome 147.0.7727.102, Windows 10
-* **Notes**: None
+## Environment
+* Chrome 147.0.7727.102, Windows 10
