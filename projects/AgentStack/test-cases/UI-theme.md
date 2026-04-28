@@ -1,4 +1,4 @@
-# Test Case ID: AS-THEME-001
+# Test Case ID: AS-UI_THEME-001
 
 ## Metadata
 * **Title**: Check theme 
@@ -42,7 +42,7 @@ As expected
 ---
 ---
 
-# Test Case ID: AS-THEME-002
+# Test Case ID: AS-UI_THEME-002
 
 ## Metadata
 * **Title**: Check theme "Dark"
@@ -86,7 +86,7 @@ As expected
 ---
 ---
 
-# Test Case ID: AS-THEME-003
+# Test Case ID: AS-UI_THEME-003
 
 ## Metadata
 * **Title**: Check theme presistence after login
@@ -134,7 +134,7 @@ In step 9 the theme remains selected as auto
 ---
 ---
 
-# Test Case ID: AS-THEME-004
+# Test Case ID: AS-UI_THEME-004
 
 ## Metadata
 * **Title**: Check theme presistence after login
