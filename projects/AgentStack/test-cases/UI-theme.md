@@ -99,7 +99,7 @@ As expected
 Verify that the darktheme setting remains consistent after logging out and back in
 
 ## Preconditions
-1. 1. The user is logged into the website.
+1. The user is logged into the website.
 2. The browser (Chrome) is set to "Dark" mode at the OS level.
 3. The website theme setting is currently set to "Auto".
 
@@ -147,7 +147,7 @@ In step 9 the theme remains selected as auto
 Verify that the light theme setting remains consistent after logging out and back in
 
 ## Preconditions
-1. 1. The user is logged into the website.
+1. The user is logged into the website.
 2. The browser (Chrome) is set to Light mode at the OS level.
 3. The website theme setting is currently set to "Auto".
 
