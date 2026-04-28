@@ -21,7 +21,7 @@ Verify that the user can switch the interface theme from "Auto" to "Light" and t
 ## Steps
 | # | Action | Expected Result |
 |---| :--- | :--- |
-| 1 |  Navigate to the application homepage. | Homepage is open |
+| 1 | Navigate to the application homepage. | Homepage is open |
 | 2 | Click on the Profile Icon in the header | A new object with a dropwown listinside has opened |
 | 3 | Select 'Light' from the Theme dropdown menu | The theme change to light  |
 | 4 | Refresh the browser page (F5) | The theme should remain the same |
