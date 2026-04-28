@@ -22,4 +22,4 @@ Hi! I am a passionate Junior QA Engineer based in Brazil. I specialize in functi
 - [Test Suite: User Onboarding](projects/agentChat/test-cases/registration.md)
 
 ---
-*Open for collaboration. Contact me via [LinkedIn/Email].*
+*Open for collaboration. Contact me via [LinkedIn/godefroy0004@gmail.com].*
