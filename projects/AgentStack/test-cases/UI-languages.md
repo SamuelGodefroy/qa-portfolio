@@ -1,4 +1,4 @@
-# Test Case ID: AS-UI_LANGUAGE-001
+# Test Case ID: AS-TC-UI_LANGUAGE-001
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
@@ -41,7 +41,7 @@ Verify language setting persists after logout/login cycle.
 ---
 ---
 
-# Test Case ID: AS-UI_LANGUAGE-002
+# Test Case ID: AS-TC-UI_LANGUAGE-002
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
@@ -85,7 +85,7 @@ Verify language setting persists after logout/login cycle.
 ---
 ---
 
-# Test Case ID: AS-UI_LANGUAGE-003
+# Test Case ID: AS-TC-UI_LANGUAGE-003
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
