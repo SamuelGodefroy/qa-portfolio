@@ -33,7 +33,7 @@ After the logout-login cycle, the theme resets to the browser's default theme. I
 | 7 | Enter password | Password field populated | - |
 | 8 | Click "Login" | User logged in | - |
 | 9 | Verify theme website | The website theme should be set to Dark | -
-| 9 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "System"** |
+| 10 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "System"** |
 
 ## Actual vs Expected
 **Expected:** After the logout-login cycle, the theme remains selected by the user in the profile menu. 
