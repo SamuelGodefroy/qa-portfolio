@@ -10,7 +10,7 @@ To keep our test documentation structured, we use the following format for Test 
 *   **[NUMBER]**: Three-digit sequential number (e.g., `001`, `002`).
 
 **Example**:
-`AS-AUTH-001` -> AgentStack, Authentication Module, Test Case 001.
+`AS-TC-AUTH-001` -> AgentStack, Test Case, Authentication Module, Test Case 001.
 
 # Naming Convention for Bur Reports
 
@@ -23,4 +23,4 @@ To keep our test documentation structured, we use the following format for Bug R
 *   **[NUMBER]**: Three-digit sequential number (e.g., `001`, `002`).
 
 **Example**:
-`AS-AUTH-001` -> AgentStack, Authentication Module, Test Case 001.
+`AS-BUG-AUTH-001` -> AgentStack, Bug Report, Authentication Module, 001.
