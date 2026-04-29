@@ -109,7 +109,7 @@ Verify Dark theme persists after logout/login cycle.
 | 7 | Enter password | Password field populated | - |
 | 8 | Click "Login" | User logged in | - |
 | 9 | Verify theme website | The website theme should be set to Dark | -
-| 9 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "Auto"** |
+| 10 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "Auto"** |
 
 ## Status
 - [ ] Pass
