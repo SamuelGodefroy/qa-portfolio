@@ -5,7 +5,7 @@ To keep our test documentation structured, we use the following format for Test 
 **Format**: `[PROJECT]-[MODULE]-[NUMBER]`
 
 *   **[PROJECT]**: Two-letter project code (e.g., `AS` for AgentStack).
-*   **[TEST-CASE]**: Two letters 'TC' to identify the test case 
+*   **[TEST-CASE]**: Two letters `TC` to identify the test case 
 *   **[MODULE]**: Short module identifier (e.g., `AUTH` for Authentication, `UI` for User Interface, `MSG` for Messaging).
 *   **[NUMBER]**: Three-digit sequential number (e.g., `001`, `002`).
 
