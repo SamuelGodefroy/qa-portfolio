@@ -1,4 +1,4 @@
-# Test Case ID: AS-UI-THEME-001
+# Test Case ID: AS-TC-UI-THEME-001
 
 ## Metadata
 * **Title**: Verify Light Theme Persistence After Refresh
@@ -37,7 +37,7 @@ Verify Light theme persists after page refresh when OS is in Dark mode.
 ---
 ---
 
-# Test Case ID: AS-UI-THEME-002
+# Test Case ID: AS-TC-UI-THEME-002
 
 ## Metadata
 * **Title**: Verify Dark Theme Persistence After Refresh
@@ -76,7 +76,7 @@ Verify Dark theme persists after page refresh when OS is in Dark mode.
 ---
 ---
 
-# Test Case ID: AS-UI-THEME-003
+# Test Case ID: AS-TC-UI-THEME-003
 
 ## Metadata
 * **Title**: Verify Dark Theme Persistence After Logout/Login
