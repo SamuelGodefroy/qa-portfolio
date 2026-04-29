@@ -1,4 +1,4 @@
-# Test Case ID: AS-TC-UI-THEME-001
+# Test Case ID: AS-TC-UI_THEME-001
 
 ## Metadata
 * **Title**: Verify Light Theme Persistence After Refresh
@@ -76,7 +76,7 @@ Verify Dark theme persists after page refresh when OS is in Dark mode.
 ---
 ---
 
-# Test Case ID: AS-TC-UI-THEME-003
+# Test Case ID: AS-TC-UI_THEME-003
 
 ## Metadata
 * **Title**: Verify Dark Theme Persistence After Logout/Login
@@ -113,14 +113,14 @@ Verify Dark theme persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] **Fail** (Issue: [AS-UI-THEME-003])
+- [x] **Fail** (Issue: [AS-UI_THEME-003])
 
 ## Environment
 * Chrome 147.0.7727.102, Windows 10
 ---
 ---
 
-# Test Case ID: AS-UI-THEME-004
+# Test Case ID: AS-UI_THEME-004
 
 ## Metadata
 * **Title**: Verify Light Theme Persistence After Logout/Login
