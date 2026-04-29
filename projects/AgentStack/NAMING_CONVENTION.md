@@ -17,8 +17,8 @@ To keep our test documentation structured, we use the following format for Test 
 To keep our test documentation structured, we use the following format for Bug Reports IDs:
 
 **Format**: `[PROJECT]-[MODULE]-[NUMBER]`
-*   **[BUR-REPORT]**: To indicate a bug report, specify BUG at the beginning. 
 *   **[PROJECT]**: Two-letter project code (e.g., `AS` for AgentStack).
+*   **[BUR-REPORT]**: To indicate a bug report, specify 'BUG'  
 *   **[MODULE]**: Short module identifier (e.g., `AUTH` for Authentication, `UI` for User Interface, `MSG` for Messaging).
 *   **[NUMBER]**: Three-digit sequential number (e.g., `001`, `002`).
 
