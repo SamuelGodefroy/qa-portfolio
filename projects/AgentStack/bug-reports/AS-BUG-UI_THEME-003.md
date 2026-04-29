@@ -1,7 +1,7 @@
 # AS-BUG-UI_THEME-003
 
 > **Summary:** After the logout-login cycle, the theme resets to the browser theme.
-> **Example:** *Selected "Light" → after logout/login: browser theme + toggle "Auto"*
+> **Example:** *Selected "Dark" → after logout/login: browser theme + toggle "Auto"*
 
 | Field | Value |
 | :--- | :--- |
@@ -33,12 +33,12 @@ After the logout-login cycle, the theme resets to the browser's default theme. I
 | 7 | Enter password | Password field populated | - |
 | 8 | Click "Login" | User logged in | - |
 | 9 | Verify theme website | The website theme should be set to Dark | -
-| 9 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "Auto"** |
+| 9 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "System"** |
 
 ## Actual vs Expected
-**Expected:** The theme is preserved as selected by the user in the profile after the logout-login cycle. 
+**Expected:** After the logout-login cycle, the theme remains selected by the user in the profile menu. 
 
-**Actual:** The theme resets to browser default on login
+**Actual:** After the logout-login cycle, the theme selected in the profile menu is "System".
 
 ## Impact Assessment
 - [ ] Critical: System unusable  
