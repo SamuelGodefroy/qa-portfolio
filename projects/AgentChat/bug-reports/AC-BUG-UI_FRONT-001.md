@@ -13,7 +13,7 @@
 | **Build/Version** | actual |
 | **Author** | Aleksei Nikolaev |
 | **Date Reported** | 2026-05-02 |
-| **Linked TC** | **None** 
+| **Linked TC** | **AC-TC-UI_FRONT-001** 
 
 ---
 
