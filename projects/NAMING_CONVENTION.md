@@ -1,6 +1,6 @@
 # Naming Convention for projects
 
-To keep our test documentation structured, we use the following format for Test Case IDs:
+To keep our test documentation structured, we use the following format for documentation in our projects
 
 **Format**: `[PROJECT]-[TICKET_TYPE]-[MODULE]-[NUMBER]`
 
