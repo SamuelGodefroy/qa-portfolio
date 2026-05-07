@@ -28,8 +28,10 @@ Verify Light theme persists after page refresh when OS is in Dark mode.
 | 5 | Verify theme toggle | Toggle shows "Light" | - |
 
 ## Status
-- [x] **Pass**
-- [ ] Fail
+- [x] Pass
+- [ ] Fail (Link to Bug Report: [#])
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment
 * Chrome 147.0.7727.102, Windows 10
@@ -67,8 +69,10 @@ Verify Dark theme persists after page refresh when OS is in Dark mode.
 | 5 | Verify theme toggle | Toggle shows "Dark" | - |
 
 ## Status
-- [x] **Pass**
-- [ ] Fail
+- [x] Pass
+- [ ] Fail (Link to Bug Report: [#])
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment
 * Chrome 147.0.7727.102, Windows 10
@@ -113,7 +117,9 @@ Verify Dark theme persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] **Fail** (Issue: [AS-UI_THEME-003])
+- [x] Fail (Link to Bug Report: https://github.com/SamuelGodefroy/qa-portfolio/blob/main/projects/AgentStack/bug-reports/AS-BUG-UI_THEME-003.md)
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment
 * Chrome 147.0.7727.102, Windows 10
@@ -157,7 +163,10 @@ Verify Light theme persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] **Fail** (Issue: [AS-UI-THEME-004])
+- [x] Fail (Link to Bug Report: (https://github.com/SamuelGodefroy/qa-portfolio/blob/main/projects/AgentStack/bug-reports/AS-BUG-UI_THEME-004.md))
+- [ ] Blocked
+- [ ] Skipped
+
 
 ## Environment
 * Chrome 147.0.7727.102, Windows 10
