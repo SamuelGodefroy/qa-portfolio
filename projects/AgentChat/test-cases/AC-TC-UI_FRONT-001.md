@@ -32,8 +32,8 @@ Verification of sending a message in a private chat
 | 6 | Click the "Send" button | **Message is sent, new message is visible within the user's viewport** | **Fail** |
 
 ## Status
-- [ ] Pass
-- [x] Fail (Link to Bug Report: (https://github.com/SamuelGodefroy/qa-portfolio/edit/main/projects/AgentChat/bug-reports/AC-BUG-UI_FRONT-001.md))
+- [x] Pass
+- [ ] Fail
 - [ ] Blocked
 - [ ] Skipped
 
