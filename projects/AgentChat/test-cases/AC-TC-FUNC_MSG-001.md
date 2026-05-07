@@ -1,43 +1,37 @@
 # AC-TC-FUNC_MSG-001
 
 ## Metadata
-* **Title**: Отправка личного сообщения пользователю
-* **Priority**: Medium
+* **Title**: Sending a private message to a user
+* **Priority**: Critical
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-05-06
 
 ## Objective
-[One sentence describing the purpose of this test case]
+Verification of the message sending functionality
 
 ## Preconditions
-1. [Condition 1]
-2. [Condition 2]
-3. [Condition 3]
+
+1. Page https://agentstack.tech/messenger is open
+2. User is authorized
 
 ## Test Data
 * Email: `[test@example.com]`
 * Password: `[TestPass123!]`
-* [Other test data]
 
 ## Steps
 
 | # | Action | Expected Result | Actual Result |
 |---| :--- | :--- | :--- |
-| 1 | [Action] | [Expected behavior] | - |
-| 2 | [Action] | [Expected behavior] | - |
-| 3 | [Action] | [Expected behavior] | - |
-| 4 | [Action] | [Expected behavior] | **FAILED: [Actual behavior]** |
-| 5 | [Action] | [Expected behavior] | - |
-| 6 | [Action] | [Expected behavior] | - |
+| 1 | Enter test message in the text field: "Test_123"| Text field displays: "Test_123" | - |
+| 2 | Click on the "Send" icon/button | Message is sent, a "Delivered" checkmark is present below the message | - |
 
 ## Status
-- [ ] Pass
-- [ ] Fail (Link to Bug Report: [#])
+- [x] Pass
+- [ ] Fail 
 - [ ] Blocked
 - [ ] Skipped
 
 ## Environment
-* **Environment**: OS: [Version], Browser: [Version], Device: [Model]
+* **Environment**: OS: Windows 11, Browser: Chrome 147.0.7727.102, Device: Desktop
 
 ## Attachments
-[Path to screenshots/videos/logs]
