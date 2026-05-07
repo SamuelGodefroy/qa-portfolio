@@ -6,7 +6,6 @@
 
 | Field | Value |
 | :--- | :--- |
-| **ID** | # |
 | **Status** | [New / In Progress / Fixed / Rejected / Need Info] |
 | **Severity** | [Blocker / Critical / Major / Minor / Trivial] |
 | **Priority** | [P1 (High) / P2 (Medium) / P3 (Low)] |
