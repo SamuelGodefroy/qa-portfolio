@@ -2,7 +2,6 @@
 
 ## Metadata
 * **Title**: [Brief description of what is being tested]
-* **Module**: [ ]
 * **Priority**: [Critical / High / Medium / Low]
 * **Created By**: [Your Name]
 * **Date**: [YYYY-MM-DD]
