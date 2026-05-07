@@ -33,7 +33,9 @@ Verify language setting persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: [Issue #XXX])
+- [x] Fail (Link to Bug Report: (https://github.com/SamuelGodefroy/qa-portfolio/blob/main/projects/AgentStack/bug-reports/AS-BUG-UI_LANGUAGE-001.md)
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment / Notes
 * **Environment**: Chrome 147.0.7727.102, Windows 10
@@ -76,7 +78,9 @@ Verify language setting persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: [Issue #XXX])
+- [x] Fail (Link to Bug Report: (https://github.com/SamuelGodefroy/qa-portfolio/blob/main/projects/AgentStack/bug-reports/AS-BUG-UI_LANGUAGE-002.md))
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment / Notes
 * **Environment**: Chrome 147.0.7727.102, Windows 10
@@ -120,7 +124,9 @@ Verify language setting persists after logout/login cycle.
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: [Issue #XXX])
+- [x] Fail (Link to Bug Report: (https://github.com/agentstacktech/AgentStack/issues/2))
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment / Notes
 * **Environment**: Chrome 147.0.7727.102, Windows 10
