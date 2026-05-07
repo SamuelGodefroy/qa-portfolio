@@ -33,7 +33,9 @@ Verification of sending a message in a private chat
 
 ## Status
 - [ ] Pass
-- [x] Fail (Link to Bug Report: #5)
+- [x] Fail (Link to Bug Report: (https://github.com/SamuelGodefroy/qa-portfolio/edit/main/projects/AgentChat/bug-reports/AC-BUG-UI_FRONT-001.md))
+- [ ] Blocked
+- [ ] Skipped
 
 ## Environment
 
