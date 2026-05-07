@@ -32,7 +32,7 @@ Negative scenario of entering invalid data
 
 ## Status
 - [ ] Pass
-- [x] Fail
+- [x] Fail https://github.com/SamuelGodefroy/qa-portfolio/blob/main/projects/AgentStack/bug-reports/AS-BUG-FUNC_AUTH-006.md
 - [ ] Blocked
 - [ ] Skipped
 
