@@ -4,7 +4,7 @@
 >
 >**Example:** *When trying to register an account with a password of one character, no error occurs.*
 
-| Field | Value |
+| **Field** | **Value** |
 | :--- | :--- |
 | **Status** | New |
 | **Severity** | Major |
