@@ -110,7 +110,7 @@ Verify Dark theme persists after logout/login cycle.
 | 7 | Enter password | Password field populated | - |
 | 8 | Click "Login" | User logged in | - |
 | 9 | Verify theme website | The website theme should be set to Dark | -
-| 10 | Check theme toggle | **Toggle shows "Dark"** | **FAILED: Toggle reset to "Auto"** |
+| 10 | Check theme toggle | **Toggle shows "Dark"** | **Fail** |
 
 ## Status
 - [ ] Pass
@@ -154,8 +154,8 @@ Verify Light theme persists after logout/login cycle.
 | 6 | Enter email | Email field populated | - |
 | 7 | Enter password | Password field populated | - |
 | 8 | Click "Login" | User logged in | - |
-| 9 | Verify theme website | **The website theme should be set to Light** | **FAILED: The website reset on the dark theme**
-| 10 | Check theme toggle | **Toggle shows "Light"** | **FAILED: Toggle reset to "Auto"** |
+| 9 | Verify theme website | **The website theme should be set to Light** | **Fail**
+| 10 | Check theme toggle | **Toggle shows "Light"** | **Fail** |
 
 ## Status
 - [ ] Pass
