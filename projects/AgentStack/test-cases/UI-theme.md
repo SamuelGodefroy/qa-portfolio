@@ -2,7 +2,6 @@
 
 ## Metadata
 * **Title**: Verify Light Theme Persistence After Refresh
-* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
