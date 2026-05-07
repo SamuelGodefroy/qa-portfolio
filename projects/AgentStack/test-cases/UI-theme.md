@@ -42,7 +42,6 @@ Verify Light theme persists after page refresh when OS is in Dark mode.
 
 ## Metadata
 * **Title**: Verify Dark Theme Persistence After Refresh
-* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
@@ -83,7 +82,6 @@ Verify Dark theme persists after page refresh when OS is in Dark mode.
 
 ## Metadata
 * **Title**: Verify Dark Theme Persistence After Logout/Login
-* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
@@ -129,7 +127,6 @@ Verify Dark theme persists after logout/login cycle.
 
 ## Metadata
 * **Title**: Verify Light Theme Persistence After Logout/Login
-* **Module**: UI Theme
 * **Priority**: Low
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
