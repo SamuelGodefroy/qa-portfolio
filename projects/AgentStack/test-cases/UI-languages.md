@@ -46,7 +46,6 @@ Verify language setting persists after logout/login cycle.
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
-* **Module**: UI Language
 * **Priority**: Medium
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
@@ -92,7 +91,6 @@ Verify language setting persists after logout/login cycle.
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
-* **Module**: UI Language
 * **Priority**: Medium
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
