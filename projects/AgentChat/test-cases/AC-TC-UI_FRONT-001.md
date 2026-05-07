@@ -26,10 +26,10 @@ Verification of sending a message in a private chat
 |---| :--- | :--- | :--- |
 | 1 | Open website: https://agentstack.tech/ | Main page https://agentstack.tech/ loads successfully | - |
 | 2 | Click on "Messenger" | Opens https://agentstack.tech/messenger | - |
-| 3 | Select a chat from the "All Chats" folder | The selected chat opens | - |
-| 4 | Tap on the chat input field | **Input field is active, text entry is available** | **FAILED: The page scrolls up abruptly. The input field remains stuck at the very top of the screen. Text entry is available but UI is broken.** |
+| 3 | Select a chat from the "All Chats" folder | The selected chat opens |  |
+| 4 | Tap on the chat input field | **Input field is active, text entry is available** | - [x] -  |
 | 5 | Enter text | Text appears in the input field | - |
-| 6 | Click the "Send" button | **Message is sent, new message is visible within the user's viewport** | **FAILED:** **The sent message remains outside the visible area (above the top edge). The input field also remains stuck at the top.** |
+| 6 | Click the "Send" button | **Message is sent, new message is visible within the user's viewport** | [x] Fail |
 
 ## Status
 - [ ] Pass
