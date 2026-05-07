@@ -5,7 +5,6 @@
 
 | Field | Value |
 | :--- | :--- |
-| **ID** | #5 |
 | **Status** | `New` |
 | **Severity** | `Low` |
 | **Priority** | `P3 (Medium)` |
