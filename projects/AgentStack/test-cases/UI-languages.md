@@ -2,7 +2,6 @@
 
 ## Metadata
 * **Title**: Verify Language Persistence After Logout/Login
-* **Module**: UI Language
 * **Priority**: Medium
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-04-28
