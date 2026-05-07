@@ -2,9 +2,9 @@
 
 ## Metadata
 * **Title**: Отправка личного сообщения пользователю
-* **Priority**: [Critical / High / Medium / Low]
-* **Created By**: [Your Name]
-* **Date**: [YYYY-MM-DD]
+* **Priority**: Medium
+* **Created By**: Aleksei Nikolaev
+* **Date**: 2026-05-06
 
 ## Objective
 [One sentence describing the purpose of this test case]
