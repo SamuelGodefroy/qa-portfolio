@@ -27,8 +27,8 @@ Verify language setting persists after logout/login cycle.
 | 5 | Click "Logout" | Login screen appears | - |
 | 6 | Enter email: `test@example.com` | Email field populated | - |
 | 7 | Enter password: `TestPass123!` | Password field populated | - |
-| 8 | Click "Login" | **UI in English** | **FAILED: UI remained Russian** |
-| 9 | Check language toggle (Step 2) | **Toggle shows "English (US)"** | **FAILED: Toggle stayed on "Auto"** |
+| 8 | Click "Login" | **UI in English** | **Fail** |
+| 9 | Check language toggle (Step 2) | **Toggle shows "English (US)"** | **Fail** |
 
 ## Status
 - [ ] Pass
@@ -71,8 +71,8 @@ Verify language setting persists after logout/login cycle.
 | 5 | Click "Logout" | Login screen appears | - |
 | 6 | Enter email: `test@example.com` | Email field populated | - |
 | 7 | Enter password: `TestPass123!` | Password field populated | - |
-| 8 | Click "Login" | **UI in Portuguese** | **FAILED: UI remained Russian** |
-| 9 | Check language toggle (Step 2) | **Toggle shows "Portuguese (PT)"** | **FAILED: Toggle stayed on "Auto"** |
+| 8 | Click "Login" | **UI in Portuguese** | **Fail** |
+| 9 | Check language toggle (Step 2) | **Toggle shows "Portuguese (PT)"** | **Fail** |
 
 ## Status
 - [ ] Pass
@@ -117,7 +117,7 @@ Verify language setting persists after logout/login cycle.
 | 6 | Enter email: `test@example.com` | Email field populated | - |
 | 7 | Enter password: `TestPass123!` | Password field populated | - |
 | 8 | Click "Login" | UI in Russian | - |
-| 9 | Check language toggle (Step 2) | **Toggle shows "Russian (RU)"** | **FAILED: Toggle stayed on "Auto"** |
+| 9 | Check language toggle (Step 2) | **Toggle shows "Russian (RU)"** | **Fail** |
 
 ## Status
 - [ ] Pass
