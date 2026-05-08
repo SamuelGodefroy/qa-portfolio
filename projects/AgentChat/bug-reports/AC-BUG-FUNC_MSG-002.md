@@ -30,7 +30,7 @@ When attempting to delete previously sent messages, the user receives a "Not fou
 
 
 ## Actual vs Expected
-**Expected:** Expected: The user's message is deleted.
+**Expected:** The user's message is deleted.
 **Actual:** The user's message remains in the chat.
 
 ## Impact Assessment
@@ -38,7 +38,7 @@ When attempting to delete previously sent messages, the user receives a "Not fou
 - [ ] High: Core functionality broken (main feature is not working)
 - [x] Medium: User experience degraded, workaround exists (functionality works but is inconvenient)
 - [ ] Low: Cosmetic issue (minor UI distortions)
-- [x] Frequency: [100% / Often / Rarely / Once]
+- [x] Frequency: 100%
 - [ ] Workaround: None
 
 ## Incident Category
