@@ -31,6 +31,7 @@ When attempting to delete previously sent messages, the user receives a "Not fou
 
 ## Actual vs Expected
 **Expected:** The user's message is deleted.
+
 **Actual:** The user's message remains in the chat.
 
 ## Impact Assessment
