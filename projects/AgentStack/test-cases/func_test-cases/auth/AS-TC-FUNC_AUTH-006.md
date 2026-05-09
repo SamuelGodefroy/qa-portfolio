@@ -28,7 +28,7 @@ Negative scenario of entering invalid data
 | 2 | Click on the "Registration" icon/button | The registration window opens with "Email", "Password", "Inviter code" (for the referral system) fields | - |
 | 3 | Enter valid data into the "Email" field | The entered data is displayed in the text field | - |
 | 4 | Enter one character "1" into the "Password" field | The "Password" field displays "dots" hiding the entered password | - |
-| 5 | Click on the "Registration" icon/button | Registration error. Password cannot contain only one character | - |
+| 5 | Click on the "Registration" icon/button | Registration error. Password cannot contain only one character | User successfully registered. Dashboard opens |
 
 ## Status
 - [ ] Pass
